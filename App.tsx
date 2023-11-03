@@ -22,10 +22,10 @@ const App = () => {
         metamaskWallet({
           recommended: true,
         }),
-        rainbowWallet(),
-        walletConnect({
-          recommended: true,
-        }),
+        // rainbowWallet(),
+        // walletConnect({
+        //   recommended: true,
+        // }),
         embeddedWallet({
           auth: {
             // you need to enable EmbeddedWallets under your API Key in your thirdweb dashboard:
